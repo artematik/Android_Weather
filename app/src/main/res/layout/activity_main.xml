@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите город"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/city_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите период"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/period_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/period_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сегодня"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/period_tomorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Завтра"/>
+
+        <RadioButton
+            android:id="@+id/period_3days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На 3 дня"/>
+
+        <RadioButton
+            android:id="@+id/period_10days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На 10 дней"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/launch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Запустить"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"/>
+
+</LinearLayout>
