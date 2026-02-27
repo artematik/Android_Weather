@@ -23,9 +23,9 @@
 
 ## 📸 Скриншоты приложения
 
-| Главный экран | Выбор периода (Spinner) | Ошибка (нет браузера) |
-|:-------------:|:-----------------------:|:---------------------:|
-| <img src="screenshots/main_page.png" width="220"> | <img src="screenshots/spinner.png" width="220"> | <img src="screenshots/absence_browser.png" width="220"> |
+| Главный экран | Выбор периода (Spinner) | Открытый браузер | Ошибка (нет браузера) |
+|:-------------:|:-----------------------:|:----------------:|:---------------------:|
+| <img src="screenshots/main_page.png" width="180"> | <img src="screenshots/spinner.png" width="180"> | <img src="screenshots/browser.png" width="180"> | <img src="screenshots/absence_browser.png" width="180"> |
 
 ## 🚀 Как запустить
 
